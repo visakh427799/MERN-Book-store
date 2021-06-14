@@ -1,0 +1,59 @@
+
+
+.wrapper{
+    max-width:700px;
+height:400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.rights{
+
+width:400px;
+
+}
+.lefts{
+    max-width: 300px;
+    padding-top:30px;
+
+}
+.inpt{
+    width:400px;
+    margin-top:40px;
+    margin-left:60px;
+    display: grid;
+    grid-template-columns: 1fr  ;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+}
+.inpt input{
+    width:220px;
+    height:35px;
+    margin-top:20px;
+    border: 2px solid #00BFA6;
+    background-color: rgb(255, 255, 255);
+   padding-left: 10px;
+    font-size: 14px;
+    text-indent:20px;
+    color: #00BFA6;
+    
+}
+button{
+    width:220px;
+    height:35px;
+    background-color: #00BFA6;
+     border-radius: 20px;
+     border-style: none;
+     margin-top:20px;
+     color:white;
+     font-family: 'Nunito', sans-serif;
+     font-weight: bold;
+
+} 
+
+.addbook {
+    color: #fb2f1d;
+    margin-left: 30px;
+    margin-top:10px
+}
+
